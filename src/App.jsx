@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Khushi from "./pages/Khushi";
@@ -9,7 +10,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/khushi" element={<Khushi />} />
-      <Route path="/nikhil" element={<Nikhil />} />
     </Routes>
   );
 }
