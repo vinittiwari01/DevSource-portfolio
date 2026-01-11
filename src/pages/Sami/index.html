@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>samicode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h2><span class="blue-text">public class </span><span class="teal-text"><b>SamiPortfolio</b></span>{</h2>
+        <div class="nav-buttons">
+            <a href="#skills-section"><span class="yellow-text">Skills</span>()</a>
+            <a href="#project-section"><span class="yellow-text">Projects</span>()</a>
+            <a href="#journey-section"><span class="yellow-text">Journey</span>()</a>
+            <a href="#contact-section"><span class="yellow-text">ContactMe</span>()</a>
+        </div>
+    </nav>
+    <main>
+        <div class="hero-section">
+            <div class="introduction">
+                <h1><span class="blue-text">public void</span> <span class="yellow-text"><b>Introduction</b></span>(){
+                </h1>
+                <p class="green-text"><span class="hidden-text">----</span>// Hi,</p>
+                <p><span class="hidden-text">----</span><span class="blue-text">string</span> name = <span
+                        class="orange-text">"Mohd Sami"</span>;</p><br>
+
+                <p><span class="hidden-text">----</span><span class="blue-text">string</span>[] myPassions = {</p>
+                <p><span class="hidden-text">----</span><span class="hidden-text">----</span>
+                    <span class="orange-text">"Game Development"</span>,
+                </p>
+                <p><span class="hidden-text">----</span><span class="hidden-text">----</span>
+                    <span class="orange-text">"Programming"</span>
+                </p>
+                <p><span class="hidden-text">----</span>};</p><br>
+
+                <p><span class="hidden-text">----</span><span class="blue-text">string</span>[] mySkills = {</p>
+                <p><span class="hidden-text">----</span><span class="hidden-text">----</span> <span
+                        class="orange-text">"C#"</span>, <span class="orange-text">"Unity Engine"</span>,
+                    <span class="orange-text">"Python"</span>,
+                </p>
+                <p><span class="hidden-text">----</span><span class="hidden-text">----</span><span class="orange-text">
+                        "Problem Solving"</span></p>
+                <p><span class="hidden-text">----</span>};</p>
+                <p> }</p>
+            </div>
+            <img src="Images/programmer-image.png" alt="">
+        </div>
+        <hr>
+        <div id="skills-section" class="skills-section">
+            <h1><span class="blue-text">public</span> <span class="teal-text">Skill</span>[] <span
+                    class="yellow-text"><b>Skills</b></span>(){</h1>
+
+            <div class="skills-container locked" id="skills-container">
+
+                <!-- Lock Screen -->
+                <div class="lock-overlay no-select" id="skills-lock">
+                    <p>Click here 5 times to unlock <b>Skills Section</b></p>
+                </div>
+
+                <!-- Real content -->
+                <p><span class="teal-text">Skill</span>[] skills = {</p>
+                <div class="skills-content" id="skills-content">
+                    <ul>
+                        <li>
+                            <img src="Images/c-sharp.png" width="150" alt="">
+                            <div>
+                                <p>name = <span class="orange-text">"C#"</span>;</p>
+                                <p>yearsOfExp = <span class="light-green-text">2</span>;</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/Unity-logo.png" width="130" alt="">
+                            <div>
+                                <p>name = <span class="orange-text">"Unity Engine"</span>;</p>
+                                <p>yearsOfExp = <span class="light-green-text">2</span>;</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/python-logo.png" width="150" alt="">
+                            <div>
+                                <p>name = <span class="orange-text">"Python"</span>;</p>
+                                <p>yearsOfExp = <span class="light-green-text">3</span>;</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/problem-solving.png" width="150" alt="">
+                            <div>
+                                <p>name = <span class="orange-text">"Problem Solving"</span>;</p>
+                                <p>yearsOfExp = <span class="light-green-text">3</span>;</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="Images/code-icon.png" width="150" alt="">
+                            <div>
+                                <p>name = <span class="orange-text">"Clean Code"</span>;</p>
+                                <p>yearsOfExp = <span class="light-green-text">1</span>;</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p>}</p>
+            </div>
+            <h1>}</h1>
+        </div>
+
+        <div id="project-section" class="project-section">
+            <h1><span class="blue-text">public</span> <span class="teal-text">Project</span>[] <span
+                    class="yellow-text"><b>Projects</b></span>(){</h1>
+            <div class="project-container locked" id="project-container">
+
+                <!-- Lock Screen -->
+                <div class="lock-overlay no-select" id="projects-lock">
+                    <p>Complete <b>Doom Scroller Achievement</b> to unlock this section</p>
+                </div>
+                <div class="projects-content" id="projects-content">
+                    <div class="game-projects">
+                        <p><span class="teal-text">Project</span>[] gameDevProjects = {</p>
+                        <ul>
+                            <!-- Re Program -->
+                            <li class="project">
+                                <div>
+                                    <img src="https://img.itch.zone/aW1nLzI0MjkzNjY2LnBuZw==/315x250%23c/Z0dHZ6.png"
+                                        alt="">
+                                    <a href="https://github.com/Mohd-Sami010/Re-Program-Game.git" target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"RE: Program"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            This is my Best Project so far,<br>
+                                            because I made an Interpreter in this game that you can use to program the
+                                            action of robot by a node based scripting language, And when you hit run
+                                            Interpreter will execute your code line by line and robot will follow those
+                                            commands like Move, Jump, Pick, Drop etc. <br>
+                                            You goal is make Robot reach finish line.
+                                            This is currently under development, The demo will launched soon for android
+                                            devices.
+                                            "</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Unity Engine"</span>,
+                                        <span class="orange-text">"C#"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>,
+                                        <span class="orange-text">"Clean Code"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- Project Antidote -->
+                            <li class="project">
+                                <div>
+                                    <img src="https://img.itch.zone/aW1nLzIyMDMyODQ2LnBuZw==/315x250%23c/9ndgS8.png"
+                                        alt="">
+                                    <a href="https://samicode-games.itch.io/project-antidote" target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"Project Antidote"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            This is my 2nd Best Project,<br>
+                                            because in this game I built a smart enemy AI that have multiple states like
+                                            chasing, attacking, Getting cured, follow player, go into camp and stop.<br>
+                                            The city is filled with Zombies, and you have 2 guns a M416 rifle and an
+                                            antidote gun that you can use to cure zombies, Once they are cured they
+                                            follow you and you escort them to base. Then call the evacuation truck to
+                                            evacuate cured people, you get money from it. Then buy supplies from that
+                                            money and continue."</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Unity Engine"</span>,
+                                        <span class="orange-text">"C#"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- Neural Prison -->
+                            <li class="project">
+                                <div>
+                                    <img src="https://img.itch.zone/aW1nLzIxNDY1ODY2LnBuZw==/315x250%23c/BvE8eC.png"
+                                        alt="">
+                                    <a href="https://samicode-games.itch.io/neural-prison" target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"Neural Prison"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            This was my 1st Game that I finished,<br>
+                                            This is a platformer game where you control a moving cube, but there is a
+                                            big Twist, in other game when player touches obstacle he gets damaged or
+                                            durectly game over but here things are different, If you hit an obstacle,
+                                            the obstacle will throw you back with some force every time. It create a
+                                            really fun and challenging gameplay. Game has variety of levels, each level
+                                            is unique.<br>
+                                            Must check it out, Available for both Window and android."</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Unity Engine"</span>,
+                                        <span class="orange-text">"C#"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <p>};</p>
+                    </div>
+                    <br>
+                    <!-- <hr> -->
+                    <div class="python-projects">
+                        <p><span class="teal-text">Project</span>[] pythonProjects = {</p>
+                        <ul>
+                            <!-- Pasypter -->
+                            <li class="project">
+                                <div>
+                                    <img src="Images/Encrytion-icon.png" alt="">
+                                    <a href="https://github.com/Mohd-Sami010/Python/blob/main/Best%20Projects/PasswordEncription.py"
+                                        target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"Pasypter"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            Pasypter is an Encrytion Algorithm,<br>
+                                            That generates different encryption even for for same text. Here is an
+                                            example:<br><br>
+                                            Github.com --> [1H;01j;02v;06n;04y;01c;075;05h;04s;08u;0] <br>
+                                            Github.com --> [6M;04m;02v;08p;06{;05g;053;07j;09x;05r;0] <br>
+                                            <br>
+                                            Just don't try to encrypt text longer then 20 chars, as Algorithm fails to
+                                            decrypt it sometimes. <br>
+                                            "</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Python"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>,
+                                        <span class="orange-text">"Clean Code"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- Streak Tracker -->
+                            <li class="project">
+                                <div>
+                                    <img src="Images/fire-icon.png" alt="">
+                                    <a href="https://github.com/Mohd-Sami010/Python/blob/main/Best%20Projects/Streak%20Tracker.py"
+                                        target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"Streak Tracker"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            This program is made to track Streaks. <br>
+                                            It have a lot to do with string, writing and reading files. It also features
+                                            colourful outputs in terminal using colorama library. <br>
+                                            This program have these key features: <br>
+                                            - Marking a streak done. <br>
+                                            - View a streak in *(asterisk) pattern to help visualize how many days you
+                                            marked this streak done. <br>
+                                            - Add a new streak. <br>
+                                            - Delete a streak. <br>
+                                            "</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Python"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- 2 Player Guess the number Game-->
+                            <li class="project">
+                                <div>
+                                    <img src="Images/number-game-icon.png" alt="">
+                                    <a href="https://github.com/Mohd-Sami010/Python/blob/main/Best%20Projects/2%20Player%20guess%20number.py"
+                                        target="_blank">
+                                        <span class="yellow-text">ViewProject</span>()
+                                    </a>
+                                </div>
+                                <div class="project-info-container">
+                                    <h3>projectName = <span class="orange-text">"2 Player NGG"</span>;</h3>
+
+                                    <p>projectInfo = <span class="orange-text">"<br>
+                                            This is 2 Player Number Guessing Game,<br>
+                                            A recreation of og number guessing game that everyone makes while learning
+                                            any language, but I added 2 player support. <br>
+                                            Now the program will first asks for names of player 1 and player 2, then
+                                            game starts, both player get their chances to guess one after other just by
+                                            hints like "It is smaller/ bigger number". It have endless game loop and
+                                            coloured texts.
+                                            <br>
+                                            "</span>;
+                                    </p>
+                                    <p>skillsUsed = {
+                                        <span class="orange-text">"Python"</span>,
+                                        <span class="orange-text">"Clean Code"</span>,
+                                        <span class="orange-text">"Problem Solving"</span>};
+                                    </p>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <p>};</p>
+                    </div>
+                </div>
+            </div>
+            <h1>}</h1>
+        </div>
+        <div class="journey-section" id="journey-section">
+            <h1><span class="blue-text">public</span> <span class="teal-text">Moment</span>[] <span
+                    class="yellow-text"><b>Journey</b></span>(){</h1>
+            <div class="journey-container locked" id="journey-container">
+
+                <!-- Lock Screen -->
+                <div class="lock-overlay no-select" id="journey-lock">
+                    <div class="quiz-box">
+                        <!-- <h2>Journey Locked</h2> -->
+                        <p>Answer to unlock Journey Section.</p><br>
+
+                        <div id="question-text"></div>
+
+                        <div class="options">
+                            <button class="option-btn"></button>
+                            <button class="option-btn"></button>
+                            <button class="option-btn"></button>
+                            <button class="option-btn"></button>
+                        </div>
+
+                        <p id="quiz-feedback"></p>
+                    </div>
+                </div>
+
+                <!-- Real content -->
+                <p><span class="teal-text">Year</span>[] years = {</p>
+                <div class="journey-content" id="journey-content">
+                    <ul>
+                        <!-- 2023 - python -->
+                        <li>
+                            <div class="ribbon-container">
+                                <div class="ribbon"></div>
+                            </div>
+                            <div class="text-container">
+                                <h3>{<br><span class="hidden-text">----</span>year = <span
+                                        class="light-green-text">2023</span>;</h3>
+                                <p><span class="hidden-text">-----</span>info = <span class="orange-text">" <br>
+                                        <span class="hidden-text">-----</span>● Started learning Python from
+                                        Mobile."</span>;</p>
+                                <h3>},</h3>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="ribbon-container">
+                                <div class="ribbon"></div>
+                                <div class="ribbon blue-ribbon"></div>
+                            </div>
+                            <div class="text-container">
+                                <h3>{<span class="hidden-text">-----</span><br><span class="hidden-text">----</span>year
+                                    = <span class="light-green-text">2024</span>;</h3>
+                                <p><span class="hidden-text">-----</span>info = <span class="orange-text">" <br>
+                                        <span class="hidden-text">-----</span>● Made Small projects in Python. <br>
+                                        <span class="hidden-text">-----</span>● Got Intrested in Game Development. <br>
+                                        <span class="hidden-text">-----</span>● Started learning Its Magic Engine on
+                                        mobile."</span>;</p>
+                                <h3>},</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ribbon-container">
+                                <div class="ribbon"></div>
+                                <div class="ribbon blue-ribbon"></div>
+                                <div class="ribbon red-ribbon"></div>
+                            </div>
+                            <div class="text-container">
+                                <h3>{<br><span class="hidden-text">----</span>year = <span
+                                        class="light-green-text">2025</span>;</h3>
+                                <p><span class="hidden-text">-----</span>info = <span class="orange-text">" <br>
+                                        <span class="hidden-text">-----</span>● Made Inermediate projects in Python.
+                                        <br>
+                                        <span class="hidden-text">-----</span>● Made 2 Games from Mobile. <br>
+                                        <span class="hidden-text">-----</span>● Started learning Unity Game Engine on
+                                        Laptop. <br>
+                                        <span class="hidden-text">-----</span>● Solved leetcode problems in python. <br>
+                                        <span class="hidden-text">-----</span>● Made 4 games on Unity and published on
+                                        itch. <br>
+                                        <span class="hidden-text">-----</span>● Partcipated in 3 GameJams and submitted
+                                        on time. <br>
+                                        <span class="hidden-text">-----</span>● Started learning Web Development.
+                                        ""</span>;</p>
+                                <h3>},</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ribbon-container">
+                                <div class="ribbon blank-ribbon"></div>
+                                <div class="ribbon blue-ribbon"></div>
+                                <div class="ribbon red-ribbon"></div>
+                            </div>
+                            <div class="text-container">
+                                <h3>{<br>
+                                    <span class="hidden-text">----</span>year = <span
+                                        class="light-green-text">2026</span>;
+                                </h3>
+                                <p><span class="hidden-text">-----</span>info = <span class="orange-text">" <br>
+                                        <span class="hidden-text">-----</span>● Working on RE: Program game to launch on
+                                        PlayStore. <br>
+                                        <span class="hidden-text">-----</span>● Made this portfolio.
+                                        "</span>;</p>
+                                <h3>}</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p>}</p>
+            </div>
+            <h1>}</h1>
+        </div>
+        <div id="contact-section" class="contact-section">
+            <h1>
+                <span class="blue-text">public</span>
+                <span class="teal-text">void</span>
+                <span class="yellow-text"><b>ContactMe</b></span>() {
+            </h1>
+
+            <div class="contact-container locked" id="contact-container">
+
+                <!-- Lock Overlay -->
+                <div class="lock-overlay no-select">
+                    <p>
+                        Unlock <b>all sections</b> to Contact Me.
+                    </p>
+                </div>
+
+                <!-- Real Content -->
+                <div class="contact-content">
+                    <p><span class="green-text"> // You made it to the End, You deserves contacting me.</p></span><br>
+
+                    <p>
+                        email = <span class="orange-text">"mohdsamimalik01@gmail.com</span>;
+                    </p>
+                    <div class="contact-links-container">
+                        <a href="mailto:mohdsamimalik01@gmail.com" target="_blank">
+                            <p><span class="yellow-text">MailMe</span>();</p>
+                        </a>
+                        <a href="https://github.com/Mohd-Sami010" target="_blank">
+                            <p><span class="yellow-text">ViewGithub</span>();</p>
+                        </a>
+                        <a href="https://samicode-games.itch.io" target="_blank">
+                            <p><span class="yellow-text">ViewGames</span>();</p>
+                        </a>
+                        <a href="https://www.instagram.com/mohd_sami501/" target="_blank">
+                            <p><span class="yellow-text">ViewInstagram</span>();</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <h1>}</h1>
+        </div>
+        <h1 class="last-bracket"><span class="hidden-text">----</span>}</h1>
+    </main>
+    <div id="achievement-container">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
