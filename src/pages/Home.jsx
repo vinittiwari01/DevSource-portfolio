@@ -78,6 +78,7 @@ export default function Home() {
             <MemberButton name="Nikhil" link="/nikhil" />
             <MemberButton name="Jiya Agrawal" link="/jiya" />
             <MemberButton name="Vinit Tiwari" link="/Vinit" />
+            <MemberButton name="Himanshu Singh" link="https://portfolio-gules-two-28.vercel.app/" />
           </div>
         </motion.div>
       </section>

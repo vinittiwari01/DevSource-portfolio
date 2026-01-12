@@ -49,9 +49,17 @@ function App() {
       />
 
       <Route
+        path="/Himanshu"
+        element={
+          <div className="himanshu-portfolio">
+            <Himanshu />
+          </div>
+        }
+      />
+      <Route
         path="/Vinit"
         element={
-          <div className="portfolio-vinit">
+          <div className="vinit-portfolio">
             <Vinit />
           </div>
         }
