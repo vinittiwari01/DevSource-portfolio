@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Khushi from "./pages/Khushi";
 import Atharv from "./pages/Atharv";
 import Nikhil from "./pages/Nikhil";
-import Vinit from "./pages/vinit";
+import Vinit from "./pages/Vinit";
 import Portfolio from "./pages/Portfolio";
 
 function App() {
